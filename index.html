@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10110e">
+  <title>SHIELDX — Security, Reimagined.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#">
+      <span class="brand-symbol">✳</span> SHIELD<span class="lime">X</span>
+    </a>
+    <div class="top-label">INDEPENDENT SECURITY LAB / 001</div>
+    <div class="live"><span></span> ALL SYSTEMS NOMINAL</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <div class="eyebrow"><span>01</span> YOUR DIGITAL DEFENSE STARTS HERE</div>
+        <h1>THINK<br>BEYOND<br><span class="outline">THE</span> <span class="lime">THREAT.</span></h1>
+        <p class="hero-description">
+          Small tools. Smarter habits. A safer digital world.
+          Your personal security lab, built for curious minds.
+        </p>
+        <a href="#tools" class="explore">EXPLORE THE LAB <span>↘</span></a>
+      </div>
+
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="crosshair">+</div>
+        <div class="shield">
+          <svg viewBox="0 0 200 230" fill="none">
+            <path d="M100 8 L184 43 V105 C184 158 149 197 100 222 C51 197 16 158 16 105 V43 Z"
+              stroke="#C6FF4D" stroke-width="2"/>
+            <path d="M100 27 L166 54 V105 C166 145 140 177 100 199 C60 177 34 145 34 105 V54 Z"
+              stroke="#C6FF4D" stroke-opacity=".3"/>
+            <path d="M67 113 L91 137 L139 86"
+              stroke="#C6FF4D" stroke-width="6" stroke-linecap="square"/>
+          </svg>
+        </div>
+        <div class="art-label label-top">ENCRYPTION / ACTIVE</div>
+        <div class="art-label label-bottom">FIG. 001 — DEFENSE SYSTEM</div>
+        <div class="art-coordinate">34°01' N<br>06°50' W</div>
+      </div>
+    </section>
+
+    <div class="ticker">
+      <div class="ticker-track">
+        <span>SECURITY IS A PRACTICE ✳</span>
+        <span>STAY CURIOUS ✳</span>
+        <span>BUILD WITH INTENTION ✳</span>
+        <span>SECURITY IS A PRACTICE ✳</span>
+        <span>STAY CURIOUS ✳</span>
+        <span>BUILD WITH INTENTION ✳</span>
+      </div>
+    </div>
+
+    <section class="tools-section" id="tools">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow"><span>02</span> THE TOOLBOX</div>
+          <h2>THREE TOOLS.<br><span class="muted">ZERO EXCUSES.</span></h2>
+        </div>
+        <div class="section-index">LAB ACCESS<br>AUTHORIZED_</div>
+      </div>
+
+      <div class="tool-grid">
+
+        <article class="tool-panel">
+          <div class="tool-meta"><span>TOOL_01</span><span>IDENTITY / 01</span></div>
+          <div class="tool-icon">⌘</div>
+          <h3>Password<br>Intelligence<span class="lime">.</span></h3>
+          <p>Inspect password complexity with an instant local analysis.</p>
+          <label for="password">ENTER TEST PASSWORD</label>
+          <input id="password" type="password" placeholder="Type something..." autocomplete="off">
+          <div class="meter"><div id="strength-bar"></div></div>
+          <div class="meter-info">
+            <span id="strength-text">AWAITING INPUT</span>
+            <span id="strength-score">0 / 5</span>
+          </div>
+          <div class="tool-footer">LOCAL ANALYSIS ONLY <span>↗</span></div>
+        </article>
+
+        <article class="tool-panel featured">
+          <div class="tool-meta"><span>TOOL_02</span><span>GENERATION / 02</span></div>
+          <div class="tool-icon">✳</div>
+          <h3>Entropy<br>Machine<span class="lime">.</span></h3>
+          <p>Generate a random password using browser cryptography.</p>
+          <label for="generated">GENERATED OUTPUT</label>
+          <input id="generated" type="text" placeholder="Your secret appears here" readonly>
+          <div class="generator-options">
+            <span>20 CHARACTERS</span>
+            <span>CRYPTOGRAPHIC RNG</span>
+          </div>
+          <button id="generate" class="primary-btn">GENERATE SECRET <span>↗</span></button>
+          <button id="copy" class="copy-btn">COPY TO CLIPBOARD</button>
+          <p id="copy-status" class="feedback" aria-live="polite"></p>
+          <div class="tool-footer">SECURE RANDOMNESS <span>↗</span></div>
+        </article>
+
+        <article class="tool-panel">
+          <div class="tool-meta"><span>TOOL_03</span><span>NETWORK / 03</span></div>
+          <div class="tool-icon">⌁</div>
+          <h3>Protocol<br>Inspector<span class="lime">.</span></h3>
+          <p>Inspect a URL scheme and identify whether HTTPS is used.</p>
+          <label for="url">TARGET URL</label>
+          <input id="url" type="text" placeholder="https://example.com">
+          <button id="check-url" class="primary-btn">INSPECT TARGET <span>↗</span></button>
+          <div class="url-output" id="url-result" aria-live="polite">AWAITING TARGET...</div>
+          <div class="tool-footer">SCHEME INSPECTION ONLY <span>↗</span></div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto-mark">✳</div>
+      <div>
+        <div class="eyebrow"><span>03</span> THE MANIFESTO</div>
+        <h2>GOOD SECURITY<br>IS <span class="lime">GOOD DESIGN.</span></h2>
+        <p>Making digital safety accessible, one small tool at a time.</p>
+      </div>
+      <div class="manifesto-number">001<br>— 003</div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#">SHIELD<span class="lime">X</span></a>
+    <span>AN OPEN SOURCE EXPERIMENT · 2026</span>
+    <span>BUILT FOR A SAFER WEB ↗</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

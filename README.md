@@ -1,6 +1,5 @@
 ✳ SHIELDX — Security, Reimagined.
 
-
 <p align="center">
 <strong>Small tools. Smarter habits. A safer digital world.</strong>
 <br />
